@@ -55,7 +55,35 @@ body {
     flex-direction: row;
     margin-bottom: 2.813rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
+
+/* header start */
+
+.header {
+    padding: 1.5rem 0;
+}
+
+.header h2 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+}
+
+.title-section {
+    margin: 4rem 0;
+}
+
+.title-section h1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 7.5rem;
+}
+
+/* header end */
+
 
 /* left-part post-header start */
 
@@ -156,3 +184,41 @@ body {
 }
 
 /* left-part post-footer end */
+
+
+/* footer start */
+
+.footer {
+  margin-top: 20rem;
+}
+
+.credits {
+  display: flex;
+  justify-content: end;
+}
+
+.credits p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #081E34;
+  opacity: 0.5;
+}
+
+.credits p span {
+  border-bottom: 1px solid #081E34;
+}
+
+.student {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #081E34;
+  padding-bottom: 32px;
+}
+
+/* footer end */
