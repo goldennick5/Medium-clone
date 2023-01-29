@@ -1,5 +1,6 @@
 const contentBody = document.createElement("div");
 const body = document.getElementById("body");
+const titleSection = document.getElementById("title-section");
 
 const byline = localStorage.getItem("byline");
 const publishedDate = localStorage.getItem("published_date");
@@ -8,6 +9,15 @@ const desFacet = JSON.parse(localStorage.getItem("des_facet"));
 const multimedia = JSON.parse(localStorage.getItem("multimedia"));
 const title = localStorage.getItem("title");
 const subsection = localStorage.getItem("subsection");
+
+const backArrow = document.createElement("img");
+backArrow.classList.add("back-arrow");
+backArrow.src = "./images/icons/back-arrow.png"
+titleSection.appendChild(backArrow);
+
+backArrow.addEventListener("click", function(){
+    window.location.href = "index.html";
+})
 
 contentBody.innerHTML = `
     <div class="content-header">

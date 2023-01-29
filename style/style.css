@@ -352,3 +352,10 @@ body {
 .main-side {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
+
+.back-arrow {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 4rem 0;
+  cursor: pointer;
+}
